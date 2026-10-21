@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Diario de aprendizaje de Didáctica de la Formación y Orientación Laboral.">
+
+    <title>Inicio | Más allá de enseñar</title>
+
+    <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+         CABECERA Y MENÚ DE NAVEGACIÓN
+    ====================================== -->
+
+    <header class="hero" id="inicio">
+
+        <nav class="nav container" aria-label="Navegación principal">
+
+            <!-- LOGOTIPO: AL PULSAR, VUELVE AL INICIO -->
+            <a class="marca" href="index.html">
+                Más allá
+                <span>de enseñar</span>
+            </a>
+
+            <!-- ENLACES DEL MENÚ -->
+            <div class="nav-enlaces">
+
+                <a href="index.html">Inicio</a>
+
+                <a href="#sobre-mi">Sobre mí</a>
+
+                <!-- MENÚ DESPLEGABLE -->
+                <div class="nav-desplegable">
+
+                    <a href="#" class="nav-desplegable-titulo"
+                       aria-haspopup="true">
+
+                        Situación de enseñanza-aprendizaje
+                        <span aria-hidden="true">⌄</span>
+
+                    </a>
+
+                    <div class="desplegable-contenido">
+
+                        <a href="tradicional.html">
+                            Situación tradicional
+                        </a>
+
+                        <a href="propuesta.html">
+                            Propuesta mejorada
+                        </a>
+
+                    </div>
+
+
+        </nav>
+
+
+        <!-- =====================================
+             PRESENTACIÓN PRINCIPAL
+        ====================================== -->
+
+        <div class="hero-contenido container">
+
+            <p class="etiqueta">
+                DIARIO DE APRENDIZAJE · DIDÁCTICA DE FOL
+            </p>
+
+            <h1>
+                Enseñar es abrir caminos.
+                <br>
+                <span>Aprender es recorrerlos.</span>
+            </h1>
+
+            <p class="hero-texto">
+                Un espacio personal para reflexionar sobre la educación,
+                descubrir nuevas estrategias y construir mi futura manera
+                de enseñar.
+            </p>
+
+            <a class="boton" href="#sobre-mi">
+                Descubre mi diario
+                <span aria-hidden="true">↓</span>
+            </a>
+
+        </div>
+
+        <div class="hero-decoracion" aria-hidden="true">
+            APRENDER · REFLEXIONAR · TRANSFORMAR
+        </div>
+
+    </header>
+
+
+    <!-- =====================================
+         CONTENIDO PRINCIPAL
+    ====================================== -->
+
+    <main>
+
+        <!-- =====================================
+             PRESENTACIÓN PERSONAL
+        ====================================== -->
+
+        <section class="seccion container presentacion" id="sobre-mi">
+
+            <div class="seccion-intro">
+
+                <p class="etiqueta">01 / PRESENTACIÓN</p>
+
+                <h2>Un poco sobre mí</h2>
+
+                <p class="bajada">
+                    Mi punto de partida como futura docente.
+                </p>
+
+            </div>
+
+
+            <!-- INFORMACIÓN SOBRE MÍ -->
+
+            <article class="tarjeta presentacion-texto">
+
+                <div class="icono" aria-hidden="true">✦</div>
+
+                <h3>¿Quién soy?</h3>
+
+                <p>
+                    Soy Ángela Pérez Cañamero, tengo 26 años y vivo en un pueblo de Sevilla. 
+                    Hoy quiero compartir un poquito de mi historia, de cómo comenzó mi interés por la docencia y de cómo, 
+                    aunque la vida me llevó por caminos diferentes, aquella ilusión de la infancia sigue acompañándome.
+                </p>
+
+                <p>
+                    Todo se remonta a cuando tenía cinco años. En mi colegio hicimos una actividad llamada el libro viajero, 
+                    en la que cada clase debía escribir sobre un tema diferente. A la mía le tocó hablar sobre lo que queríamos 
+                    ser de mayores. Puede parecer una actividad sencilla, de esas que hacemos cuando somos pequeños y que con el tiempo olvidamos,
+                    pero, en mi caso, se convirtió en un recuerdo especial. Cuando llegó el momento de decir qué profesión quería ejercer en el futuro, 
+                    lo tuve claro: quería ser profesora. Con tan solo cinco años, ya imaginaba que algún día estaría al otro lado del aula, enseñando y 
+                    acompañando a otras personas en su aprendizaje.
+                </p>
+
+                <p>
+                    Pero, como suele ocurrir, la vida no siempre sigue el camino que imaginamos desde pequeños. 
+                    Con el paso de los años, mis decisiones y circunstancias me llevaron hacia el ámbito social, 
+                    hasta graduarme en Trabajo Social. Y, aunque mi trayectoria tomó una dirección diferente a la 
+                    que había expresado en aquella actividad del colegio, no siento que me haya alejado de lo que realmente me importa.
+                </p>
+
+                <p>
+                    Estudiar Trabajo Social me ha permitido conocer distintas realidades personales y sociales, 
+                    comprender que cada persona tiene una historia y unas circunstancias propias, y descubrir el valor de la escucha, 
+                    la empatía, la inclusión y el acompañamiento. También me ha enseñado la importancia de ofrecer oportunidades y de estar 
+                    al lado de las personas en sus procesos de crecimiento. Hoy entiendo que todo ello forma parte de la persona y de la futura docente que quiero llegar a ser.
+                </p>
+
+                <!-- CARRUSEL PERSONAL: cambia las rutas de src por tus fotografías -->
+                <div class="carrusel-personal" aria-label="Fotografías de mi recorrido personal y académico">
+                    <input class="carrusel-control" type="radio" name="foto-personal" id="foto-personal-1" checked>
+                    <input class="carrusel-control" type="radio" name="foto-personal" id="foto-personal-2">
+
+                    <div class="carrusel-ventana">
+                        <figure class="carrusel-foto carrusel-foto-1">
+                            <img src="imagenes/que-quiero-ser-de-mayor.jpg" alt="Página de un trabajo de Infantil de cinco años titulado ¿Qué quiero ser de mayor?, con una reflexión de la tutora.">
+                            <figcaption><span>01</span> ¿Qué quiero ser de mayor?</figcaption>
+                        </figure>
+                        <figure class="carrusel-foto carrusel-foto-2">
+                            <img src="imagenes/profesiones-infantil.jpg" alt="Textos de niños y niñas de Infantil sobre las profesiones que desean ejercer de mayores.">
+                            <figcaption><span>02</span> Los sueños y las profesiones en Infantil</figcaption>
+                        </figure>
+                        <div class="carrusel-flechas">
+                            <label class="carrusel-flecha flecha-a-2" for="foto-personal-2" aria-label="Mostrar la segunda fotografía">→</label>
+                            <label class="carrusel-flecha flecha-a-1" for="foto-personal-1" aria-label="Mostrar la primera fotografía">←</label>
+                        </div>
+                    </div>
+                    <div class="carrusel-indicadores" aria-label="Seleccionar fotografía">
+                        <label for="foto-personal-1">Fotografía 1</label>
+                        <label for="foto-personal-2">Fotografía 2</label>
+                    </div>
+                </div>
+
+            </article>
+
+
+            <!-- PROPÓSITO DEL DIARIO -->
+
+            <article class="tarjeta proposito">
+
+                <p class="etiqueta">
+                    EL PROPÓSITO DEL DIARIO
+                </p>
+
+                <h3>Aprender durante el proceso</h3>
+
+                <p>
+                    Este diario nace con la idea de tener un espacio propio donde dar forma a todo lo que voy aprendiendo y 
+                    descubriendo durante mi formación. Quiero que sea un lugar en el que pueda compartir mi historia, expresar 
+                    mis ideas y reunir aquellos conocimientos que, de una manera u otra, puedan contribuir a mi futuro como docente.
+                </p>
+
+                <p>
+                    A lo largo de esta etapa iré incorporando actividades, recursos educativos, herramientas digitales, propuestas metodológicas y 
+                    materiales que me resulten interesantes. También quiero aprovechar este espacio para descubrir nuevas maneras de trabajar en el aula, 
+                    conocer diferentes estrategias de enseñanza y encontrar ideas que, en un futuro, pueda adaptar a las necesidades de mi alumnado.
+                </p>
+
+                <p>
+                    Mi propósito es que, cuando vuelva a visitar estas páginas dentro de un tiempo, pueda reconocer cuánto he aprendido, qué ideas me han acompañado y 
+                    cómo ha evolucionado mi manera de entender la educación. Y, sobre todo, que este espacio siga siendo útil más allá de la asignatura, convirtiéndose 
+                    en una pequeña biblioteca personal de ideas, experiencias y recursos a la que pueda acudir cuando comience mi camino en el aula.
+                </p>
+
+                <div class="palabras-clave">
+
+                    <span>Reflexión</span>
+
+                    <span>Comunicación</span>
+
+                    <span>Innovación</span>
+
+                    <span>Autoevaluación</span>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- =====================================
+             PREGUNTA DESTACADA
+        ====================================== -->
+
+        <section class="franja">
+
+            <div class="container franja-interior">
+
+                <p class="etiqueta">
+                    LA PREGUNTA QUE GUÍA ESTE DIARIO
+                </p>
+
+                <blockquote>
+                    ¿Cómo podemos pasar de escuchar una explicación
+                    a participar activamente en nuestro propio aprendizaje?
+                </blockquote>
+
+                <div class="pregunta-decoracion" aria-hidden="true">
+                    ✦
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         PIE DE PÁGINA
+    ====================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-interior">
+
+            <!-- LOGOTIPO DEL PIE DE PÁGINA -->
+
+            <a class="marca marca-footer" href="index.html">
+                Más allá
+                <span>de enseñar</span>
+            </a>
+
+            <p>
+                Diario de aprendizaje
+                <br>
+                Didáctica de la Formación y Orientación Laboral
+            </p>
+
+            <a href="#inicio" class="volver">
+                Volver arriba ↑
+            </a>
+
+        </div>
+
+
+        <div class="container footer-inferior">
+
+            <span>
+                Aprender · Reflexionar · Transformar
+            </span>
+
+            <a href="index.html">
+                Inicio
+            </a>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
